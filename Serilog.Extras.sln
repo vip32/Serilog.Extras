@@ -3,8 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B4BD19F-E75A-475B-A8B6-78E616B9974B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9C8027BD-5B6F-47A8-B6D2-2804E2E1704B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Serilog.Extras.Service.Test", "test\Serilog.Extras.Service.Test\Serilog.Extras.Service.Test.xproj", "{1DFC6A88-D18E-4848-BB18-17416C4C48E7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DFC6A88-D18E-4848-BB18-17416C4C48E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFC6A88-D18E-4848-BB18-17416C4C48E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFC6A88-D18E-4848-BB18-17416C4C48E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFC6A88-D18E-4848-BB18-17416C4C48E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DFC6A88-D18E-4848-BB18-17416C4C48E7} = {9C8027BD-5B6F-47A8-B6D2-2804E2E1704B}
 	EndGlobalSection
 EndGlobal
